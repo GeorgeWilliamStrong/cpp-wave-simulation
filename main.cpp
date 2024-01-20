@@ -492,7 +492,7 @@ void time_loop(double** u_new, double** u, double** u_old, double** v_model, int
 void write_file(int nx, int ny, double** u)
 {
     std::ofstream myfile;
-    myfile.open("FDWE.txt");
+    myfile.open("wave-sim.txt");
 
     for (int i = 0; i < nx; i++)
     {
