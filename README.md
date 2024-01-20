@@ -109,7 +109,7 @@ The basic algorithm for the program can then be expressed as follows:
 3. While $t\lt n_{t}$, update inner points: $u_{ij}^{l+1}=2u_{ij}^{l}-u_{ij}^{l-1}+\Psi_{ij}$
 4. While $t\lt n_{t}$, initialise all points for the next time-step: $u_{ij}^{l-1}=u_{ij}^{l}$, $u_{ij}^{l}=u_{ij}^{l+1}$, $t=t+\Delta t$
 
-## User instructions
+## Usage
 
 Compile `main.cpp` and run the program:
 ```bash
