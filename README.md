@@ -2,17 +2,9 @@
 
 A minimal 2D wave equation solver for a variable velocity model using the finite difference method.
 
-# 2D Wave Equation Solver for Variable Velocity Model: Finite Difference Method
+## Mathematical Formulation
 
-**ESE 4.17 Advanced Programming**
-
-*George Stronge*
-
----
-
-## Introduction
-
-A program has been developed in C++ that solves the 2D wave equation (equation 1) for a variable velocity model given the model dimensions, velocity model, grid-point spacing, Courant number, initial conditions, and time.
+The 2D wave equation is defined as follows:
 
 $$
 \frac{\partial^2 u}{\partial t^2} = \gamma\left(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}\right)
