@@ -1,6 +1,6 @@
 # C++ 2D Wave Equation Solver
 
-A minimal 2D wave equation solver for a variable velocity model using the finite difference method.
+A 2D wave equation solver for a variable velocity model using the finite difference method.
 
 ![Velocity model and modelled displacement at increasing times](example.png)
 
