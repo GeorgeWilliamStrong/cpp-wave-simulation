@@ -132,6 +132,8 @@ Parameters will be automatically prompted from the user, or they can be defined 
 12. Source location in $x$ given in cells (`ox`)
 13. Source location in $x$ given in cells (`oy`)
 
+The program writes a file named `wave-sim.txt` containing the 2D array, $u_{ij}$, at the final specified time, $t$.
+
 Note that no `dy` is required as the model is assumed to be isotropic, and all parameters are given in SI units unless otherwise stated. The boundaries are reflecting ($u=0$), and the Courant number needs to be chosen carefully to avoid numerical dispersion and instability.
 
 ## References
