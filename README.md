@@ -94,7 +94,7 @@ $$
 \frac{\partial u}{\partial t}\approx \frac{u_{ij}^{l+1}-u_{ij}^{l-1}}{2\Delta t}=0,
 $$
 
-illustrating that $u_{ij}^{l+1}=u_{ij}^{l-1}$. Substituting $u_{ij}^{l+1}$ for $u_{ij}^{l-1}$ in equation 3, rearranging, and utilizing the fact that $u_{ij}^{l+1}=u_{ij}^{l-1}$, the following expression for the fictitious value of $u_{ij}^{l-1}$ at $t=0$ is obtained:
+illustrating that $u_{ij}^{l+1}=u_{ij}^{l-1}$. Substituting $u_{ij}^{l+1}$ for $u_{ij}^{l-1}$ in the discretized wave equation, rearranging, and utilizing the fact that $u_{ij}^{l+1}=u_{ij}^{l-1}$, the following expression for the fictitious value of $u_{ij}^{l-1}$ at $t=0$ is obtained:
 
 $$
 u_{ij}^{l-1}=u_{ij}^{l}+\frac{\Psi_{ij}}{2}
