@@ -2,9 +2,9 @@
 
 A minimal 2D wave equation solver for a variable velocity model using the finite difference method.
 
-![Velocity model and modelled displacement at increasing times](FDWE2.png)
+![Velocity model and modelled displacement at increasing times](example.png)
 
-*Velocity model (top-left) and modelled pressure, $u$, at increasing times, $t$. Reflections from the first velocity contrast can be seen from 4 seconds, and an emergent head-wave can be observed at 10-12 seconds.*
+*Velocity model (top-left) and modelled pressure at increasing times. Reflections from the first velocity contrast can be seen from 4 seconds, and an emergent head-wave can be observed at 10-12 seconds.*
 
 ## Formulation
 
