@@ -1,4 +1,4 @@
-# cpp-wave-simulation
+# C++ 2D Wave Equation
 Minimal 2D wave equation solver for a variable velocity model using the finite difference method.
 
 
