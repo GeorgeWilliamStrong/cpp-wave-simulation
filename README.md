@@ -106,9 +106,8 @@ The basic algorithm for the program can then be expressed as follows:
 
 1. Set initial condition for all points: $u_{ij}^{l=0}=I(x,y)$
 2. Set fictitious prior displacement for inner points: $u_{ij}^{l-1}=u_{ij}^{l}+\frac{\Psi_{ij}}{2}$
-3. While $t<n_{t}$:
-    a. Update inner points: $u_{ij}^{l+1}=2u_{ij}^{l}-u_{ij}^{l-1}+\Psi_{ij}$
-    b. Initialise all points for the next time-step: $u_{ij}^{l-1}=u_{ij}^{l}$, $u_{ij}^{l}=u_{ij}^{l+1}$, $t=t+\Delta t$
+3. While $t<n_{t}$, update inner points: $u_{ij}^{l+1}=2u_{ij}^{l}-u_{ij}^{l-1}+\Psi_{ij}$
+4. While $t<n_{t}$, initialise all points for the next time-step: $u_{ij}^{l-1}=u_{ij}^{l}$, $u_{ij}^{l}=u_{ij}^{l+1}$, $t=t+\Delta t$
 
 ## User instructions
 
